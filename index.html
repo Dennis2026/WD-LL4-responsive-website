@@ -1,16 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>LiveLab 4 Demo</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eco-Friendly Destinations</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  Hello world
-  <script src="script.js"></script>
+
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main Navigation">
+      <div class="container">
+        <h1 class="logo">EcoTravel</h1>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Destinations</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Explore Sustainable Travel</h2>
+      <p>Discover eco-friendly destinations that respect our planet and inspire mindful exploration.</p>
+    </div>
+  </section>
+
+  <main>
+    <section class="destinations container" aria-label="Eco-Friendly Destinations">
+      <article class="card">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80"
+          alt="Scenic view of Iceland's natural landscape" />
+        <div class="card-content">
+          <h3>Iceland</h3>
+          <p>Experience geothermal wonders, eco-lodges, and northern lights adventures.</p>
+        </div>
+      </article>
+      <article class="card">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80"
+          alt="Costa Rican jungle with wildlife" />
+        <div class="card-content">
+          <h3>Costa Rica</h3>
+          <p>Explore lush rainforests, wildlife sanctuaries, and sustainable ecotourism.</p>
+        </div>
+      </article>
+      <article class="card">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80"
+          alt="Mountain landscape in New Zealand" />
+        <div class="card-content">
+          <h3>New Zealand</h3>
+          <p>Hike breathtaking trails and support environmentally conscious travel.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="cta">
+      <div class="container">
+        <h2>Ready to travel sustainably?</h2>
+        <a href="#" class="btn">Plan Your Trip</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 EcoTravel. All rights reserved.</p>
+    </div>
+  </footer>
+
 </body>
 
 </html>
